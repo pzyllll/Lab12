@@ -1,0 +1,240 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>pzy的主页</title>
+<style>
+* {
+  box-sizing: border-box;
+}
+ 
+body {
+  font-family: Arial;
+  padding: 10px;
+  background-image:url("../photo/kangnashow.jpg");
+}
+ 
+/* 头部标题 */
+.header {
+  padding: 300px;
+  text-align: center;
+  background-image:url("../photo/awu.jpg");
+
+}
+
+ 
+.header h1 {
+  font-size: 50px;
+}
+ 
+/* 导航条 */
+.topnav {
+  overflow: hidden;
+  background-color: rgb(244, 184, 247);
+  
+}
+ 
+/* 导航条链接 */
+.topnav a {
+  float: left;
+  display: block;
+  color: #f5fcfe;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  
+}
+ 
+/* 链接颜色修改 */
+.topnav a:hover {
+  background-color: rgb(213, 224, 248);
+  color: rgb(58, 146, 240);
+}
+ 
+/* 创建两列 */
+/* Left column */
+.leftcolumn {   
+  float: left;
+  width: 75%;
+}
+ 
+/* 右侧栏 */
+.rightcolumn {
+  float: left;
+  width: 25%;
+  background-color: #f1f1f1;
+  padding-left: 20px;
+}
+ 
+/* 图像部分 */
+.fakeimg {
+  background-color: rgb(242, 212, 238);
+  width: 100%;
+  padding: 20px;
+  height: 300px;
+}
+ 
+/* 文章卡片效果 */
+.card {
+  background-color: rgb(254, 248, 253);
+  padding: 20px;
+  margin-top: 20px;
+}
+ 
+/* 列后面清除浮动 */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+ 
+/* 底部 */
+.footer {
+  padding: 20px;
+  text-align: center;
+  background: rgb(244, 230, 243);
+  margin-top: 20px;
+}
+ 
+/* 响应式布局 - 屏幕尺寸小于 800px 时，两列布局改为上下布局 */
+@media screen and (max-width: 800px) {
+  .leftcolumn, .rightcolumn {   
+    width: 100%;
+    padding: 0;
+  }
+}
+ 
+/* 响应式布局 -屏幕尺寸小于 400px 时，导航等布局改为上下布局 */
+@media screen and (max-width: 400px) {
+  .topnav a {
+    float: none;
+    width: 100%;
+  }
+}
+</style>
+</head>
+<body>
+
+<div class="header">
+    
+</div>
+
+<div class="topnav">
+  <a href="./suolue.html">可爱捏</a>
+  <a href="./opacity.html">(｡･∀･)ﾉﾞ嗨</a>
+  <a href="./json.html">成绩单</a>
+
+</div>
+
+<div class="row">
+  <div class="leftcolumn">
+    <div class="card">
+      <h2>潘祉怡的个人主页</h2>
+      <h5></h5>
+      <div class="fakeimg" style="height:200px;"><p>定风波</p>
+        <P>莫听穿林打叶声，何妨吟啸且徐行。竹杖芒鞋轻胜马，谁怕？一蓑烟雨任平生。<br>
+          料峭春风吹酒醒，微冷，山头斜照却相迎。回首向来萧瑟处，归去，也无风雨也无晴。</P>
+       </div>
+      <p>座右铭：穷且益坚，不坠青云之志。</p>
+      <p></p>
+    </div>
+    <div class="card">
+      <h2>个人简历</h2>
+      
+      <div class="fakeimg" style="height:200px;">
+      出生于2003年9月17日  一个吉林小县城的医院<br>
+      喜欢吃锅包肉 小鸡炖蘑菇 火锅 烧烤 烤肉 烤冷面 炸串 混沌 烧麦.....<br>
+      是个隐藏的二次元<br>
+      喜欢托尔 康纳 五条悟 阿尼亚 《猫之茗》
+      《某科学的超电磁炮》《鬼灭之刃》<br>
+      最喜欢在晚上看星星 一个人边看天空边听歌<br>
+      在下雨天（天气不冷的情况下）出去淋雨
+
+      </div>
+        <p style="font-size:20px;">
+        &#10024;&#10024;&#10024;	
+      </p>
+      <p></p>
+    </div>
+  </div>
+  <div class="rightcolumn">
+    <div class="card">
+      <h2>自拍照</h2>
+      <div class="fakeimg" style="height:250px;">
+        <img src="../photo/me.jpg" width="220" height="220"></div>
+      
+    
+    </div>
+    <div class="card">
+      <h3>康纳酱</h3>
+      <div class="fakeimg">  <img src="../photo/hhhhhhh.jpg" width="220" height="220"></div>
+     
+    </div>
+    
+  </div>
+</div>
+
+<div class="footer"><meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="../css/1.css">
+       <script src="../js/2.js"></script>
+       <script src="../js/3.js"></script>
+      <script src="../js/4.js"></script>
+  <style>
+  /* 使图像充分响应 */
+  .carousel-inner img {
+      width: 100%;
+      height: 100%;
+      overflow:hidden
+    
+  }
+/*carousel-inner轮播的内容部分*/
+  </style>
+</head>
+<body>
+
+<div id="demo" class="carousel slide" >
+ 
+  <!-- 指示符 -->
+  <ul class="carousel-indicators">
+    <li data-target="#demo" data-slide-to="0" class="active"></li>
+    <li data-target="#demo" data-slide-to="1"></li>
+    <li data-target="#demo" data-slide-to="2"></li>
+  </ul>
+ 
+  <!-- 轮播图片 -->
+  <div class="carousel-inner">
+    <div class="carousel-item active">
+      <img src="../photo/kangna.jpg">
+    </div>
+    <div class="carousel-item">
+      <img src="../photo/kangnashow.jpg">
+    </div>
+    <div class="carousel-item">
+      <img src="../photo/kangnaa.jpg">
+    </div>
+  </div>
+ 
+  <!-- 左右切换按钮 -->
+  <a class="carousel-control-prev" href="#demo" data-slide="prev">
+    <span class="carousel-control-prev-icon"></span>
+  </a>
+  <a class="carousel-control-next" href="#demo" data-slide="next">
+    <span class="carousel-control-next-icon"></span>
+  </a>
+ 
+</div>
+     <div style="color:rgb(255, 192, 254)">
+  <button onclick="myFunction()">点击这里</button>
+  <p id="demo"></p>
+  <script>
+  function myFunction(){
+    var carname="康纳酱消失啦";
+    document.getElementById("demo").innerHTML=carname;
+  }
+  </script>
+  
+</div>
+
+</body>
+</html>
